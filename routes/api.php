@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['middleware' => 'cors'], function () {
-    //testing
+
+    Route::prefix('booking')->group(function () {
+        Route::get('get', 'BookingController@get');
+        Route::post('create', 'BookingController@create');
+    });
+
     Route::get('ping', 'PingController@index');
 });
