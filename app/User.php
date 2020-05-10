@@ -2,7 +2,6 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -16,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email'
+        'id', 'name', 'email'
     ];
 
     /**
@@ -39,6 +38,6 @@ class User extends Authenticatable
 
     public function bookings()
     {
-        $this->hasMany(Booking::class);
+        $this->hasMany(\App\Booking::class, 'user_id', 'id');
     }
 }

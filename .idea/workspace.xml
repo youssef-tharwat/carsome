@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59ecb0db-5bf8-40da-b88f-a9923b8377bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caresome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caresome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/UserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/Booking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/UserExists.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Booking.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_09_052634_create_bookings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_09_052634_create_bookings_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BookingTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BookingTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +135,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -147,6 +143,7 @@
       <recent name="$PROJECT_DIR$/app/Console/Components/Calender" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
@@ -167,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589001098016</updated>
       <workItem from="1589001099761" duration="2149000" />
-      <workItem from="1589015739375" duration="14588000" />
+      <workItem from="1589015739375" duration="27042000" />
     </task>
     <servers />
   </component>
@@ -175,18 +172,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589046782854">
+    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589142025317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1589046782854" />
+    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1589142025317" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589141320843">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1589141320843" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1589014738058">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1589014738058" />
-    <state x="418" y="183" key="NewPhpClassDialog" timestamp="1589040531267">
+    <state x="418" y="183" key="NewPhpClassDialog" timestamp="1589141923288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="418" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1589040531267" />
+    <state x="418" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1589141923288" />
     <state x="464" y="177" key="RollbackChangesDialog" timestamp="1589014740330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -195,9 +196,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="418" y="205" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589033365632" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1589057196960">
+    <state x="446" y="247" key="refactoring.ChangeSignatureDialog" timestamp="1589142547641">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589057196960" />
+    <state x="446" y="247" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1589142547641" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1589141880776">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589141880776" />
   </component>
 </project>

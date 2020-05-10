@@ -18,6 +18,7 @@ class CreateBookingsTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('title');
             $table->dateTime('start');
+            $table->string('resourceId');
             $table->timestamps();
 
             $table
